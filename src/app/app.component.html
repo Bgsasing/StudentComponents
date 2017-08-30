@@ -6,8 +6,9 @@
   <label>Student Year</label><input type="text" [(ngModel)] = "studYr"><br>
 </div>
 
+<app #dataEntry> </app>
 
-
+<app [message]="message" (AddClicked) = "test(dataEntry.getStudent(), $event)"></app>
 
 <div>
     {{messages}}

@@ -1,7 +1,7 @@
 import { Component, OnInit, Output, EventEmitter, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-add-entry',
+  selector: 'app',
   templateUrl: './AddStud.Component.html',
   styleUrls: ['./appComponent.css']
 })
