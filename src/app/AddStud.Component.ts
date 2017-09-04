@@ -1,7 +1,7 @@
 import { Component, OnInit, Output, EventEmitter, Input } from '@angular/core';
 
 @Component({
-  selector: 'app',
+  selector: 'Add-Stud',
   templateUrl: './AddStud.Component.html',
   styleUrls: ['./appComponent.css']
 })

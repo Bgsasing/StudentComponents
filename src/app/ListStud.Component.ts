@@ -1,7 +1,7 @@
 import { Component, OnInit, Output, EventEmitter, Input } from '@angular/core';
 
 @Component({
-  selector: 'app',
+  selector: 'App-List',
   templateUrl: './ListStud.Component.html',
   styleUrls: ['./app.component.css']
 })
